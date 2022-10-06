@@ -1,10 +1,13 @@
 from setuptools import setup
 
+VERSION = "0.0.1"
+
 setup(
   name='nn_utils',
-  version='0.0.1',
+  version=VERSION,
   url='https://github.com/keemsir/nnUNet_utilities',
   author='keemsir',
   author_email='keemsir@gmail.com',
+  description='A library for using the nnUNet',
   license='keemsir'
 )
