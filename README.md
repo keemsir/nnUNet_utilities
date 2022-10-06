@@ -1,2 +1,2 @@
 # nnUNet_utilities
-Utility for nnUNet
+Utilities for nnUNet
