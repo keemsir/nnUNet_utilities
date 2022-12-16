@@ -8,6 +8,7 @@ setup(
   url='https://github.com/keemsir/nnUNet_utilities',
   author='keemsir',
   author_email='keemsir@gmail.com',
+  packages=['nn_utils'],
   description='A library for using the nnUNet',
   license='keemsir'
 )
