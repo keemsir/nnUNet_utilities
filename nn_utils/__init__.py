@@ -1,1 +1,2 @@
-from .dcm2nft import dcm2nifti
+# from .dcm2nft import dcm2nifti
+from . import *
