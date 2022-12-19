@@ -8,6 +8,7 @@ pip install git+https://github.com/keemsir/nnUNet_utilities.git
 ex) import nn_utils
 
 
+
 nnU-Net은 다양한 medical image의 아키텍처와 파라미터의 분석을 토대로
 
 높은 수준의 전처리 프로세스와 학습 플랜을 제공하는 end to end pipe line network이다.
@@ -30,7 +31,7 @@ nifti 파일은 nii.gz 혹은 nii 파일 포멧으로 dcm 파일을 하나로 �
 
 
 
-
+'''
 
 nnU-Net is an end to end pipeline network that provides a high-level preprocessing process and learning plan based on
 
@@ -43,5 +44,26 @@ In order to use the pipe line of nnU-Net, it is necessary to convert the dicom f
 
 
 It consists of utils for using nnU-Net, such as dicom -> nifti converter, png -> nifti converter, and json file generator.
+
+'''
+
+---
+
+# 1. 환경설정
+
+nnU-Net을 학습시키기 위해서 최소 10GB 의 GPU memory가 필요하다.
+
+초기설정을위해서 
+
+
+# 2. 데이터 전처리
+
+# 3. 학습
+
+# 4. 예측
+
+# 5. 앙상블
+
+---
 
 
