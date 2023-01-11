@@ -7,9 +7,9 @@ pip install git+https://github.com/keemsir/nnUNet_utilities.git
 
 ex) import nn_utils
 
-from nn_utils import path_utils
+from nn_utils import path_utils (for path utils)
 
-
+---
 
 nnU-Net은 다양한 medical image의 아키텍처와 파라미터의 분석을 토대로
 
