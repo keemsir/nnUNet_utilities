@@ -64,7 +64,7 @@ def dcm2nifti(dcm_folder: str, save_folder: str):
         DCM_path = os.path.join(dcm_folder, DCM_file)
         DCM_path_sort = sorted(os.listdir(DCM_path))
         for f in DCM_path_sort:
-            os.path.join(DCM_path, f)
+            # os.path.join(DCM_path, f)
             f_dcm = pydicom.read_file(os.path.join(DCM_path, f))
             slice = f_dcm.pixel_array
             f_slope = f_dcm.RescaleSlope
