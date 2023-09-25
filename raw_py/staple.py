@@ -256,7 +256,7 @@ def maybe_mkdir_p(directory: str) -> None:
     os.makedirs(directory, exist_ok=True)
 
 # mainPath = "\\172.20.202.87\Users\keem\staple\models\model2"
-mainPath = "/home/ncc/PycharmProjects/nnUNet/staple/staple_result"
+mainPath = "/home/ncc/PycharmProjects/nnUNet/staple/staple_result" # folder to import 
 targetWeight = 0.2
 kidneyWeight =0.65  ## next is 0.3
 savePath = os.path.join("/home/ncc/PycharmProjects/nnUNet/staple/save", "Fmodel2_target_{0:1.2f}_kidney_{1:1.2f}".format(targetWeight, kidneyWeight))
@@ -274,6 +274,8 @@ reader.SetImageIO("PNGImageIO")
 print("STAPLE process is starting...")
 kidneySum =[]
 tumorSum =[]
+
+
 for iterPatient in tqdm(range(0, patientNumber)):
 
     dataPerPatient_kidney  = {}  # model 별 stack 쌓기
